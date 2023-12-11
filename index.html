@@ -1,15 +1,298 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duca Adina</title>
-    <link rel="stylesheet" href="style.css">
+	<title>Adina Duca</title>
+	<!--link css extern--> <link rel="stylesheet" type="text/css" href="style.css">
+		<!--link JS extern--><script type="text/javascript" src="action.js"></script>
+  	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
-    
-    <h1>Bun venit pe site-ul <a href="">ducaadina.github.io</a> acest site este inca in lucru</h1>
+	<a id="home"></a>
+	<!-- home -->
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Duca<span>.ad</span></h2>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#portfolio">Portofolio</a></li>
+			</ul>
+			<a href="#contact" class="btn">Contact</a>
+		</nav>
+	
+		<div class="content">
+			
+			<h3>I give life to your <br><h1><span>thoughts</span></h1>.</h3>
+			<div class="newslatter">
+				<form actions="/action_page.php">
+					<input type="email" name="email" id="mail" placeholder="Enter Your Email">
+					<input type="submit" onclick="myFunction()" name="submit" value="Lets Start">
+				</form>
+			</div>
+		</div>
+		<div class="share">
+			<div class="social">
+			<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a> 
+			<a href="https://twitter.com/i/flow/login" target="_blank"><i class="fab fa-twitter"></i></a> 
+			<a hre†="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
+			<a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+			</div>
+		</div>
+	</div>
+	<a id="about"></a>
+	<!-- About -->
+	<section class="about">
+		<div class="main">
+			<img src="imagini/photo1672147384-removebg-preview.png">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>I am not simply a media content creator or a developer focused only on the technical side. My work is a part of my soul. Websites, video games, 3d models, banners and flyers, they are all unique because they are born out of love in the laboratory of my mind. </p>
+				<a href="show.html"><button type="button">Discover my works</button></a>
+			</div>
+		</div>
+	</section>
+	<a id="services"></a>
+	<!-- service -->
+	<div class="service">
+		<div class="title">
+			<h2>Services</h2>
+		</div>
 
+		<div class="box">
+			<div class="card">
+				<span class="material-symbols-outlined">
+					web
+					</span>
+					
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>I turn your company into a favorite brand! I make you visible, requested and appreciated with a magnetic page for customers.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="web.html">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<span class="material-symbols-outlined">
+					stadia_controller
+					</span>
+				<h5>Game Development</h5>
+				<div class="pra">
+					<p>I turn any story into an immersive world. Now, you can live unrepeatable moments in a virtual world</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="game.html">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<span class="material-symbols-outlined">
+					design_services
+					</span>
+				<h5>Design</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="design.html">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a id="skills"></a>
+	<!--Skills-->
+	<section class="skills">
+		<div class="title">
+			<h2>Skills</h2>
+		</div>
+		
+		<p>Web development</p>
+		<div class="container">
+			<p>HTML</p>
+			<div class="bar">
+		  <div class="skills html">90%</div>
+		</div>
+		</div>
+		
+<div class="container">
+	<p>CSS</p>
+	<div class="bar"><div class="skills css">80%</div></div>
+</div>
+
+
+<div class="container">
+	<p>JavaScript</p>
+	<div class="bar"> <div class="skills js">65%</div></div>
+</div>
+
+<br><br><br>
+
+
+<p>Game Development</p>
+		<div class="container">
+			<p>Unity 2D</p>
+			<div class="bar">
+		  <div class="skills unity">95%</div>
+		</div>
+		</div>
+		
+<div class="container">
+	<p>C#</p>
+	<div class="bar"><div class="skills c">75%</div></div>
+</div>
+
+
+<div class="container">
+	<p>Visual Scripting</p>
+	<div class="bar"> <div class="skills html">90%</div></div>
+</div>
+<br><br><br>
+
+<p>Design</p>
+		<div class="container">
+			<p>Canva</p>
+			<div class="bar">
+		  <div class="skills canva">100%</div>
+		</div>
+		</div>
+		
+<div class="container">
+	<p>Figma</p>
+	<div class="bar"><div class="skills figma">50%</div></div>
+</div>
+
+
+<div class="container">
+	<p>Photoshop</p>
+	<div class="bar"> <div class="skills photoshop">35%</div></div>
+</div>
+
+	</section>
+	<a id="portfolio"></a>
+	<!---portfolio---> 
+	<section class="portfolio">
+		<div class="title">
+			<h2>My Works</h2>
+		</div>
+		
+		<div class="box">
+			<div class="row">
+				<img src= "imagini/donut copy.png">
+				</div>
+		
+				<div class="row">
+					<img src= "imagini/1-14112Q35544.jpg">
+					</div>
+					
+				<div class="row">
+					<img src= "imagini/2.png">
+					</div>
+					
+				<div class="row">
+					<img src= "imagini/77d47de82bb94b51970580a99ef33ef6.jpeg">
+					</div>
+		</div>
+		<div class="box">	
+				<div class="row">
+					<img src= "imagini/cadnav-1F623230603.png">
+				</div>
+				<div class="row">
+					<img src= "imagini/casa copy.png">
+				</div>
+				<div class="row">
+					<img src= "imagini/d8be0450d0d44430aa4253b4f918b9a7.jpeg">
+				</div>
+				<div class="row">
+					<img src= "imagini/e7e3e55d409c7478da34189e5d9ce4998c74a9cb.jpg">
+				</div>
+		 </div>
+	 <div class="box">	
+			<div class="row">
+				<img src= "imagini/Introduction-to-2D-Game-Development.jpg">
+			</div>
+			<div class="row">
+				<img src= "imagini/vector-waves-company-flayer-in-modern-style-eps.jpg">
+			</div>
+			<div class="row">
+				<img src= "imagini/volanta-flayer.jpg">
+			</div>
+			<div class="row">
+				<img src= "imagini/stus-01.jpg">
+			</div>
+	 </div>
+	
+	</section>
+
+	
+	
+	
+
+
+	<a id="contact"></a>
+	<!-- Contact -->
+	<div class="call">
+		<br><br>
+			<h2>Contact me</h2>
+			<br><br><br>
+			<div class="but">
+				
+				<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a> 
+				<a href="https://twitter.com/i/flow/login " target="_blank"><i class="fab fa-twitter"></i></a> 
+				<a hre†="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
+				<a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+			</div>
+			<br>
+		
+	</div>
+
+<div class="contact-me">
+		
+<br><br>
+<div class="form-style-3">
+	
+		<form>
+		<fieldset><legend>Personal</legend>
+		<label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+		<label for="field2"><span>Email <span class="required">*</span></span><input type="email" class="input-field" name="field2" value="" /></label>
+		<label for="field3"><span>Phone <span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
+		<label for="field4"><span>Subject</span><select name="field4" class="select-field">
+		<option value="Appointment">Web Development</option>
+		<option value="Interview">Game Development</option>
+		<option value="Regarding a post">Design</option>
+		</select></label>
+		</fieldset>
+		<fieldset><legend>Message</legend>
+		<label for="field6"><span>Message <span class="required">*</span></span><textarea name="field6" class="textarea-field"></textarea></label>
+		<label><span> </span><input type="submit" value="Submit" /></label>
+		</fieldset>
+		</form>
+</div>
+	<div class="map">		
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4038.183049508973!2d28.823063199455053!3d47.01691201482105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97c2d03e2c6b1%3A0xd8e8b74ac8c3ef7b!2sUniversitatea%20de%20Stat%20din%20Moldova!5e0!3m2!1sro!2s!4v1677669886937!5m2!1sro!2s" width="750" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+</div>
+	<!-- footer -->
+	<footer>
+		<p>Duca Adina</p>
+		<p>For more information abaout me:</p>
+		<div class="social">
+			<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+			<a href="https://dribbble.com/"><i class="fab fa-dribbble"></i></a>
+		</div>
+		
+	</footer>
 </body>
 </html>
